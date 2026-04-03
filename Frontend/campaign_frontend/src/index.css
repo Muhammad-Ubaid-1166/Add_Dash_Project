@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* FORCE TAILWIND V4 TO USE THE .dark CLASS INSTEAD OF OS SETTINGS */
+@variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  * {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  }
+}

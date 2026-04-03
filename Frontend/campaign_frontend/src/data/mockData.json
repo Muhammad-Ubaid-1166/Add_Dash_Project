@@ -1,0 +1,302 @@
+{
+  "kpiAggregates": {
+    "impressions": 13300000,
+    "clicks": 268000,
+    "conversions": 7300,
+    "spend": 193950.00,
+    "ctr": 2.02,
+    "roas": 1.9
+  },
+  "trendData": [
+    { "date": "Mar 01", "spend": 2000, "conversions": 80 },
+    { "date": "Mar 02", "spend": 2500, "conversions": 95 },
+    { "date": "Mar 03", "spend": 2100, "conversions": 85 },
+    { "date": "Mar 04", "spend": 3200, "conversions": 120 },
+    { "date": "Mar 05", "spend": 2800, "conversions": 110 },
+    { "date": "Mar 06", "spend": 3000, "conversions": 105 },
+    { "date": "Mar 07", "spend": 3500, "conversions": 140 },
+    { "date": "Mar 08", "spend": 2200, "conversions": 90 },
+    { "date": "Mar 09", "spend": 2900, "conversions": 115 },
+    { "date": "Mar 10", "spend": 3100, "conversions": 125 },
+    { "date": "Mar 11", "spend": 3400, "conversions": 130 },
+    { "date": "Mar 12", "spend": 2700, "conversions": 100 },
+    { "date": "Mar 13", "spend": 2600, "conversions": 102 },
+    { "date": "Mar 14", "spend": 3300, "conversions": 135 },
+    { "date": "Mar 15", "spend": 3800, "conversions": 150 },
+    { "date": "Mar 16", "spend": 2400, "conversions": 95 },
+    { "date": "Mar 17", "spend": 2900, "conversions": 112 },
+    { "date": "Mar 18", "spend": 3200, "conversions": 128 },
+    { "date": "Mar 19", "spend": 3500, "conversions": 140 },
+    { "date": "Mar 20", "spend": 4000, "conversions": 160 },
+    { "date": "Mar 21", "spend": 3100, "conversions": 122 },
+    { "date": "Mar 22", "spend": 2800, "conversions": 110 },
+    { "date": "Mar 23", "spend": 3600, "conversions": 145 },
+    { "date": "Mar 24", "spend": 3900, "conversions": 155 },
+    { "date": "Mar 25", "spend": 4200, "conversions": 168 },
+    { "date": "Mar 26", "spend": 3000, "conversions": 120 },
+    { "date": "Mar 27", "spend": 3400, "conversions": 136 },
+    { "date": "Mar 28", "spend": 3700, "conversions": 148 },
+    { "date": "Mar 29", "spend": 4100, "conversions": 164 },
+    { "date": "Mar 30", "spend": 4500, "conversions": 180 }
+  ],
+  "campaigns": [
+    {
+      "id": "c001",
+      "name": "Lumiere Summer Launch",
+      "client": "Lumiere Skincare",
+      "status": "active",
+      "budget": 50000,
+      "spend": 32450,
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "industry": "Skincare & Beauty",
+      "website": "https://lumiere-skincare.com",
+      "key_competitors": ["GlowUp Labs", "SkinGenix", "DermaPure"],
+      "objective": "awareness",
+      "target_audience": {
+        "demographics": "Women 25-40, High income",
+        "interests": ["Skincare", "Luxury Beauty", "Wellness"],
+        "location": ["USA", "Canada"],
+        "devices": ["Mobile", "Desktop"]
+      },
+      "creative_preferences": {
+        "tone": "Luxury, Elegant",
+        "imagery_style": "Minimalist product photography",
+        "color_direction": ["#FDF5E6", "#E6E6FA", "#FFFFFF"],
+        "dos": ["Show natural ingredients", "High-quality lighting"],
+        "donts": ["Cluttered backgrounds", "Overly saturated colors"]
+      }
+    },
+    {
+      "id": "c002",
+      "name": "TechGear Q1 Push",
+      "client": "TechGear",
+      "status": "paused",
+      "budget": 30000,
+      "spend": 18000,
+      "impressions": 1500000,
+      "clicks": 30000,
+      "conversions": 800,
+      "industry": "Electronics & Gadgets",
+      "website": "https://techgear.io",
+      "key_competitors": ["MegaTech", "GadgetZone"],
+      "objective": "conversion",
+      "target_audience": {
+        "demographics": "Men 18-35, Tech enthusiasts",
+        "interests": ["Gaming", "PC Building", "Tech Reviews"],
+        "location": ["Global"],
+        "devices": ["Desktop", "Mobile"]
+      },
+      "creative_preferences": {
+        "tone": "Fast-paced, Energetic",
+        "imagery_style": "Dark mode aesthetics, RGB lighting",
+        "color_direction": ["#000000", "#FF0000", "#4B0082"],
+        "dos": ["Show specs clearly", "Dynamic angles"],
+        "donts": ["Boring static shots", "Cluttered text"]
+      }
+    },
+    {
+      "id": "c003",
+      "name": "FreshBites Awareness",
+      "client": "FreshBites",
+      "status": "active",
+      "budget": 20000,
+      "spend": 15000,
+      "impressions": 1200000,
+      "clicks": 25000,
+      "conversions": 600,
+      "industry": "Food & Beverage",
+      "website": "https://freshbites.app",
+      "key_competitors": ["MealPrepPro"],
+      "objective": "consideration",
+      "target_audience": {
+        "demographics": "Adults 25-55, Health conscious",
+        "interests": ["Healthy Eating", "Fitness", "Cooking"],
+        "location": ["UK", "Europe"],
+        "devices": ["Mobile"]
+      },
+      "creative_preferences": {
+        "tone": "Fresh, Inviting, Casual",
+        "imagery_style": "Bright, colorful food photography",
+        "color_direction": ["#90EE90", "#FFD700"],
+        "dos": ["Show fresh ingredients", "Happy people eating"],
+        "donts": ["Processed look", "Dark backgrounds"]
+      }
+    },
+    {
+      "id": "c004",
+      "name": "HomeStyle Retargeting",
+      "client": "HomeStyle",
+      "status": "draft",
+      "budget": 15000,
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "industry": "Furniture & Interior Design",
+      "website": null,
+      "key_competitors": ["IKEA", "Wayfair"],
+      "objective": "conversion",
+      "target_audience": null,
+      "creative_preferences": null
+    },
+    {
+      "id": "c005",
+      "name": "FitPro App Installs",
+      "client": "FitPro",
+      "status": "completed",
+      "budget": 25000,
+      "spend": 22000,
+      "impressions": 1300000,
+      "clicks": 25000,
+      "conversions": 600,
+      "industry": "Health & Fitness Apps",
+      "website": "https://fitpro.com",
+      "key_competitors": ["Strava", "MyFitnessPal"],
+      "objective": "awareness",
+      "target_audience": {
+        "demographics": "Men & Women 18-30",
+        "interests": ["Gym", "Weightlifting", "Cardio"],
+        "location": ["USA"],
+        "devices": ["Mobile"]
+      },
+      "creative_preferences": {
+        "tone": "Motivational, Strong",
+        "imagery_style": "Action shots in the gym",
+        "color_direction": ["#1E90FF", "#FFFFFF"],
+        "dos": ["Show real people sweating", "Before/After concepts"],
+        "donts": ["Stock images", "Sedentary lifestyles"]
+      }
+    },
+    {
+      "id": "c006",
+      "name": "VoltMotors EV Premiere",
+      "client": "VoltMotors",
+      "status": "active",
+      "budget": 80000,
+      "spend": 45000,
+      "impressions": 3200000,
+      "clicks": 64000,
+      "conversions": 1200,
+      "industry": "Automotive",
+      "website": "https://voltmotors.com",
+      "key_competitors": ["Tesla", "Rivian", "Ford EV"],
+      "objective": "consideration",
+      "target_audience": {
+        "demographics": "Adults 30-55, High income, Eco-conscious",
+        "interests": ["Electric Vehicles", "Luxury Cars", "Green Tech"],
+        "location": ["USA", "Western Europe"],
+        "devices": ["Desktop", "Tablet"]
+      },
+      "creative_preferences": {
+        "tone": "Sleek, Futuristic, Premium",
+        "imagery_style": "Cinematic car shots on open roads",
+        "color_direction": ["#0F172A", "#22D3EE", "#F8FAFC"],
+        "dos": ["Highlight range capabilities", "Show minimalist interior"],
+        "donts": ["Cluttered dealership vibes", "Stock imagery"]
+      }
+    },
+    {
+      "id": "c007",
+      "name": "UrbanThread Streetwear Drop",
+      "client": "UrbanThread",
+      "status": "active",
+      "budget": 15000,
+      "spend": 9500,
+      "impressions": 800000,
+      "clicks": 18000,
+      "conversions": 450,
+      "industry": "Fashion E-commerce",
+      "website": "https://urbanthread.co",
+      "key_competitors": ["Zara", "H&M", "Stüssy"],
+      "objective": "conversion",
+      "target_audience": {
+        "demographics": "Gen Z & Millennials, Trend-setters",
+        "interests": ["Streetwear", "Sneakers", "Urban Culture"],
+        "location": ["Global"],
+        "devices": ["Mobile", "Tablet"]
+      },
+      "creative_preferences": {
+        "tone": "Edgy, Bold, Youthful",
+        "imagery_style": "Street photography, flash photography",
+        "color_direction": ["#000000", "#FF4500", "#FFFF00"],
+        "dos": ["Use real street models", "Show textures up close"],
+        "donts": ["Studio poses", "Plain white backgrounds"]
+      }
+    },
+    {
+      "id": "c008",
+      "name": "CloudNest B2B Scaling",
+      "client": "CloudNest",
+      "status": "paused",
+      "budget": 40000,
+      "spend": 28000,
+      "impressions": 1100000,
+      "clicks": 22000,
+      "conversions": 350,
+      "industry": "B2B SaaS",
+      "website": "https://cloudnest.io",
+      "key_competitors": ["AWS", "DigitalOcean", "Linode"],
+      "objective": "awareness",
+      "target_audience": {
+        "demographics": "CTOs, IT Managers, DevOps Engineers",
+        "interests": ["Cloud Computing", "DevOps", "Startups"],
+        "location": ["North America", "Asia"],
+        "devices": ["Desktop"]
+      },
+      "creative_preferences": {
+        "tone": "Authoritative, Technical, Clean",
+        "imagery_style": "Data visualizations, clean UI mockups",
+        "color_direction": ["#3B82F6", "#F9FAFB", "#1F2937"],
+        "dos": ["Show clear uptime metrics", "Use code snippets in ads"],
+        "donts": ["Gimmicky graphics", "Overpromising claims"]
+      }
+    },
+    {
+      "id": "c009",
+      "name": "WanderPath Summer Escapes",
+      "client": "WanderPath",
+      "status": "completed",
+      "budget": 25000,
+      "spend": 24000,
+      "impressions": 1800000,
+      "clicks": 36000,
+      "conversions": 2100,
+      "industry": "Travel & Tourism",
+      "website": "https://wanderpath.com",
+      "key_competitors": ["Airbnb", "Booking.com", "Expedia"],
+      "objective": "conversion",
+      "target_audience": {
+        "demographics": "Couples 25-45, Adventure seekers",
+        "interests": ["Travel", "Photography", "Hiking"],
+        "location": ["Europe", "South America"],
+        "devices": ["Mobile", "Desktop"]
+      },
+      "creative_preferences": {
+        "tone": "Inspiring, Wanderlust-inducing, Warm",
+        "imagery_style": "Drone landscapes, candid travel moments",
+        "color_direction": ["#F59E0B", "#EC4899", "#06B6D4"],
+        "dos": ["Show real travelers, not models", "Golden hour lighting"],
+        "donts": ["Crowded tourist traps", "Over-edited photos"]
+      }
+    },
+    {
+      "id": "c010",
+      "name": "PrimeSpace Luxury Listings",
+      "client": "PrimeSpace",
+      "status": "draft",
+      "budget": 10000,
+      "spend": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "industry": "Real Estate",
+      "website": null,
+      "key_competitors": ["Zillow", "Redfin", "Compass"],
+      "objective": "awareness",
+      "target_audience": null,
+      "creative_preferences": null
+    }
+  ]
+}
