@@ -1,8 +1,15 @@
-**IMPORTANT MESSAGE MUST READ IT PLEASE** ===>>(When you run backed and fronted both and do login then session will be save in localstorage, and if you stop backend and run it again then make sure clear local storage of browser and then login again)<<=====
+⚠️ **Important: Local Session Management**
+When running both the backend and frontend locally, your session is stored in the browser's localStorage. If you restart the backend server, you must clear your local storage before logging in again to avoid authentication errors.
 
-Here is the completely updated `readme.md` tailored perfectly to your new **microservices architecture**. It clearly separates the Backend, the new AI Microservice, and the Frontend.
+[!NOTE]
+This setup is intended for testing purposes only. For production environments, it is recommended to implement a robust session tracking system using secure, HTTP-only cookies to mitigate security risks like XSS.
 
-Replace your current `readme.md` with this:
+🛡️ **Production Recommendations:**
+For a production-ready application, consider the following best practices:
+
+    HttpOnly Cookies: Always use HttpOnly for session cookies and sensitive authentication tokens to prevent client-side script access.
+    Secure & SameSite: Use the Secure flag (requires HTTPS) and SameSite attributes to protect against CSRF and man-in-the-middle attacks.
+    Avoid localStorage for JWTs: Never store JSON Web Tokens (JWTs) in localStorage in a live environment, as they are vulnerable to data theft via malicious scripts.
 
 ```markdown
 # AdDash Ecosystem — AI-Powered Ad Campaign Platform
